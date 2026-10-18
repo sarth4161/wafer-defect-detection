@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# big files - do not push to GitHub
+data/*.pkl
+data/*.npz
+data/*.csv
+outputs/*.pt
+!data/.gitkeep
+!outputs/.gitkeep
+
+# agent outputs
+outputs/agent_heatmaps/
+outputs/review_queue*.csv
+outputs/agent_eval.json
+slurm_*.log
+ollama*.log
